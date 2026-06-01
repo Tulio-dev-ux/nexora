@@ -16,6 +16,9 @@
     "db:check": "tsx scripts/check-env.ts",
     "lint": "eslint"
   },
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
